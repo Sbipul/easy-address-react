@@ -1,0 +1,16 @@
+[
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "bn_name": "বাংলাদেশ",
+      "lat": "23.6850",
+      "long": "90.3563"
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "bn_name": "ভারত",
+      "lat": "20.5937",
+      "long": "78.9629"
+    }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "react-easy-address",
+  "version": "1.0.0",
+  "description": "A package to retrieve geographical data such as countries, divisions, districts, and upazilas.",
+  "main": "dist/index.js",
+  "files": [
+    "dist/*",
+    "src/data/*"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-loader": "^8.4.1",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "homepage": "https://github.com/Sbipul/react-address-finder.git#readme",
+  "bugs": {
+    "url": "https://github.com/Sbipul/react-address-finder.git/issues"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "type": "module",
+  "author": "bipul-chandro-roy",
+  "license": "ISC"
+}
