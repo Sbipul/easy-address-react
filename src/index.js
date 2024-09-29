@@ -10,7 +10,7 @@ export const getCountries = (code) => {
     }
     return countriesData;
 };
-
+// testing
 export const getDivisions = (countryCode) => {
     return divisionsData.filter(division => division.country_code === countryCode);
 };
