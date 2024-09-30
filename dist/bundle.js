@@ -1,1 +1,0 @@
-var e,o;e=self,o=()=>{},"object"==typeof exports&&"object"==typeof module?module.exports=void 0:"function"==typeof define&&define.amd?define([],o):"object"==typeof exports?exports.reactEasyAddress=void 0:e.reactEasyAddress=void 0;

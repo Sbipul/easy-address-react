@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/react-address-finder.iml" filepath="$PROJECT_DIR$/.idea/react-address-finder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/easy-address-react.iml" filepath="$PROJECT_DIR$/.idea/easy-address-react.iml" />
     </modules>
   </component>
 </project>

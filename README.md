@@ -1,4 +1,4 @@
-## react-easy-adress
+## easy-adress-react
 
 A package to retrieve geographical data such as countries, divisions, districts, and upazilas.
 
@@ -12,26 +12,19 @@ A package to retrieve geographical data such as countries, divisions, districts,
 Install my-project with npm
 
 ```bash
-  npm i react-easy-address
-  yarn add react-easy-address
+  npm i easy-adress-react
+  yarn add easy-adress-react
 ```
 
 ## Usage/Examples
 
 ```javascript
 import Component from 'my-project'
-import {getCountries} from 'react-easy-address'
+import {useCountry} from 'easy-adress-react'
 
 function App() {
-    const allCountries = getCountries();
-
-
-        // {
-        //     country:Bangladesh,
-        //     code:"BN",
-        //     id:1
-        // }
-
+    const {country,loading,error} = useCountry();
+    console.log(country)
 
   return <Component />
 }

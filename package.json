@@ -1,46 +1,34 @@
 {
-  "name": "react-easy-address",
+  "name": "easy-address-react",
   "version": "1.0.5",
-  "description": "A package to retrieve geographical data such as countries, divisions, districts, and upazilas.",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js"
-    }
-  },
-  "files": [
-    "dist/",
-    "src/data/"
-  ],
-  "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.4",
-    "babel-loader": "^8.4.1",
-    "webpack": "^5.95.0",
-    "webpack-cli": "^4.10.0"
-  },
-  "homepage": "https://github.com/Sbipul/react-address-finder.git#readme",
-  "bugs": {
-    "url": "https://github.com/Sbipul/react-address-finder/issues"
-  },
-  "scripts": {
-    "build": "webpack",
-    "prepublishOnly": "npm run build"
-  },
   "type": "module",
-  "author": "Bipul Chandro Roy",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sbipul/react-address-finder.git"
+  "description": "This is an NPM to fetch you the country details",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
   },
   "keywords": [
-    "address",
-    "geographical",
+    "react",
     "countries",
-    "divisions",
-    "districts",
-    "upazilas"
-  ]
+    "hooks",
+    "npm"
+  ],
+  "author": "Bipul Chandro Roy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "rollup": "^4.9.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
