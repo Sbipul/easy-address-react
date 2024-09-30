@@ -1,6 +1,6 @@
 {
   "name": "react-easy-address",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A package to retrieve geographical data such as countries, divisions, districts, and upazilas.",
   "main": "dist/index.js",
   "files": [
