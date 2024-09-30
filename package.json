@@ -18,10 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Sbipul/easy-address-react.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Sbipul/easy-address-react.git/bugs"
   },
   "dependencies": {
     "react": "^18.2.0",
