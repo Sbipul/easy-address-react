@@ -1,6 +1,6 @@
 {
   "name": "easy-address-react",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "type": "module",
   "description": "This is an NPM to fetch you the country details",
   "main": "dist/index.js",
@@ -24,6 +24,7 @@
     "url": "https://github.com/Sbipul/easy-address-react.git/bugs"
   },
   "dependencies": {
+    "@rollup/plugin-json": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

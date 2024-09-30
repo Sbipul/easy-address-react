@@ -1,3 +1,2 @@
-import useCountry from "./hooks/useCountry";
-
-export {useCountry};
+import {getCountry,getOneCountry,getCountryWiseDivision,getOneDivision,getDivision,getDistrict,getOneDistrict,getDivisionWiseDistrict,getUpazilla,getOneUpazilla,getDistrictWiseUpazilla} from "./hooks/useAddress.js";
+export {getCountry,getOneCountry,getCountryWiseDivision,getOneDivision,getDivision,getDistrict,getOneDistrict,getDivisionWiseDistrict,getUpazilla,getOneUpazilla,getDistrictWiseUpazilla};

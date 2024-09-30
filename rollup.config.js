@@ -1,4 +1,5 @@
 import {terser} from 'rollup-plugin-terser';
+import json from '@rollup/plugin-json';
 
 const devMode = (process.env.NODE_ENV === 'development');
 console.log(`${ devMode ? 'development' : 'production' } mode bundle`);
@@ -25,6 +26,9 @@ export default [
                     output: { quote_style: 1 }
                 })
             ]
-        }
+        },
+        plugins: [
+            json(),  // Add the JSON plugin here
+        ]
     }
 ]
