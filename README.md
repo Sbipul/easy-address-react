@@ -6,7 +6,6 @@ Easy Address React - is a comprehensive and lightweight package designed to help
 ## Authors
 
 - [Bipul-Chandro-Roy](https://www.github.com/sbipul)
-- [Portfolio](https://bipul-chandro-roy.netlify.app)
 
 ## Installation
 
