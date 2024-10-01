@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 ## easy-adress-react
 
 Easy Address React - is a comprehensive and lightweight package designed to help developers seamlessly access and manage location-specific data for Bangladesh, including countries, divisions, districts, and upazilas (sub-districts). With built-in support for latitude and longitude data, this package is your go-to solution for geographic information, enhancing productivity and saving valuable development time.
@@ -6,6 +11,10 @@ Easy Address React - is a comprehensive and lightweight package designed to help
 ## Authors
 
 - [Bipul-Chandro-Roy](https://www.github.com/sbipul)
+
+## Documentation
+
+[Documentation](https://www.npmjs.com/package/easy-address-react)
 
 ## Installation
 
@@ -79,4 +88,7 @@ I am dedicated to continuous learning and staying updated with the latest trends
 - Country-specific Division Mapping: Get all divisions for a specific country, ensuring easy geographic data management.
 - Division-specific District Mapping: Access districts for a specific division, saving you time in administrative mapping.
 - District-specific Upazila Mapping: Drill down further into sub-districts (upazilas) for each district.
+
+
+
 
