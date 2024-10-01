@@ -37,6 +37,15 @@ function App() {
 
     const oneDivision = getOneDivision(divisionId);
     // It will return one division
+    // ...
+    // ...
+    const unions = getUnion();
+    const oneUnion = getOneUnion(unionId);
+    const upazillaWiseUnion = getUpazillaWiseUnion(upazillaId);
+
+
+    // All Functions of 'easy-address-react';
+    getCountry,getOneCountry,getCountryWiseDivision,getOneDivision,getDivision,getDistrict,getOneDistrict,getDivisionWiseDistrict,getUpazilla,getOneUpazilla,getDistrictWiseUpazilla,getUnion,getOneUnion,getUpazillaWiseUnion
 
   return <Component />
 }

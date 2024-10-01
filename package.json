@@ -1,6 +1,6 @@
 {
   "name": "easy-address-react",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "type": "module",
   "description": "This is an NPM to fetch you the country details",
   "main": "dist/index.js",
@@ -10,6 +10,12 @@
   },
   "keywords": [
     "react",
+    "address",
+    "easy-address",
+    "react-easy-address",
+    "address-finder",
+    "bd-address",
+    "bangladesh-local-address",
     "countries",
     "divisions",
     "districts",
